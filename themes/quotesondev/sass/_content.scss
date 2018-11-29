@@ -1,0 +1,182 @@
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+/* Posts and pages */
+
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 $base__space-unit;
+}
+
+.updated:not(.published){
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: $base__space-unit 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 $base__space-unit;
+}
+
+// body {
+// 	color: #222;
+// }
+
+@media screen and (min-width:1080px) {
+	.site-content {
+		position: relative;
+		&:before {
+			content: "\f10d";
+			left: -175px;
+			color: #0c0;
+			font-family: FontAwesome;
+			font-size: 125px;
+			line-height: 125px;
+			position: absolute;
+			top: 0;
+
+		}
+		&:after {
+			content: "\f10e";
+			right: -175px;
+			color: #0c0;
+			font-family: FontAwesome;
+			font-size: 125px;
+			line-height: 125px;
+			position: absolute;
+			top: 0;
+		}
+	}
+	.quotes-content {
+		p {
+			font-size: 2.5rem; //1.25rem for TABLET
+			font-family: exo-medium-normal;
+			color: #FFF;
+			line-height: 1.5;
+		}
+	}
+	.quotes-meta {
+		margin-bottom: 3rem;
+		color: #FFF;
+		font-family: exo-medium-normal;
+		h2 {
+			display: inline;
+			font-size: 1.25rem;
+			font-weight: 400;
+			margin-bottom: 0;
+		}	
+		span {
+			font-size: 1.25rem;
+			font-style: italic;
+		}
+	}
+	.quotes-button {
+    background-color: #222;
+    border: 2px solid #0c0;
+    border-radius: 3px;
+    color: #0c0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1;
+		padding: .75rem 2.25rem;
+		overflow: hidden;
+		cursor: pointer;
+		font-family: exo-medium-normal;
+		&:hover {
+			border-color: #090;
+			color: #090;
+		}
+	}
+}
+
+// @media screen and (min-width:640px) {
+// 	.quotes-content {
+// 		p {
+// 			font-size: 1.75rem;
+// 		}
+// 	}
+
+
+// MOBILE
+// 	.quotes-content {
+// 		p {
+// 			font-size: 1.25rem;
+// 		}
+// 	}
+
+// FORM SUBMIT BUTTON
+.submit-quote {
+	background-color: #222;
+	border: 2px solid #0c0;
+	border-radius: 3px;
+	color: #0c0;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1;
+	padding: .75rem 2.25rem;
+	overflow: hidden;
+	cursor: pointer;
+	margin-top: 1.50rem;
+	font-family: exo-medium-normal;
+	&:hover {
+		border-color: #090;
+		color: #090;
+	}
+}
+
+@media screen and (min-width: 1080px) {
+	.about-page {
+		h2 {
+			font-family: exo-light-normal;
+			color: #FFF;
+			font-size: 2rem;
+			
+		}
+		p {
+			font-family: exo-light-normal;
+			color: #FFF;
+			font-size: 1rem;
+			line-height: 1.5;
+			a {
+        color: #0c0;
+        text-decoration: none;
+      &:hover {
+        color: #090;
+      }
+			}
+		}
+	}
+}
+
+
+// @media screen and (min-width: 640px) {}
+
+// 404 PAGE
+
+@media screen and (min-width:1080px) {
+	.error-404 {
+		section {
+			h1 {
+				font-size: 2.5rem; //1.25rem for TABLET
+			}
+		}
+	}
+}
+
+// @media screen and (min-width:640px) {}
+
+

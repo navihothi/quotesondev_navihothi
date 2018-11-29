@@ -1,0 +1,23 @@
+# Ignore everything in "wp-content" except these directories. #
+*.rtf
+/*
+!.gitignore
+!plugins/
+!themes/
+!uploads/
+!README.md
+
+# Ignore everything in "plugins" except certain plugins. #
+plugins/*
+!plugins/gutenberg/
+!plugins/rest-api/
+!plugins/wordpress-importer/
+
+
+# Ignore everything in "themes" except the active theme. #
+themes/*
+!themes/quotesondev/
+
+# Ignore packages #
+themes/quotesondev/node_modules/
+

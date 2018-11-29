@@ -1,0 +1,37 @@
+@media screen and (min-width: 1080px) {
+  .site-branding {
+    .quotes-logo {
+        img {
+          margin: 0 auto;
+          width: 700px;
+          display: flex;
+      
+      }
+    }
+  }
+}
+
+// @media screen and (min-width: 640px) {
+//   .site-branding {
+//     .quotes-logo {
+//         img {
+//           // margin: 0 auto;
+//           width: 500px;
+        
+//       }
+//     }
+//   }
+// }
+
+// .site-branding {
+//   .quotes-logo {
+//     img {
+//       // margin: 0 auto;
+//       width: 300px;
+//     }
+//   }
+// }
+
+.entry-title {
+  display: none;
+}
