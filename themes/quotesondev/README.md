@@ -1,23 +1,10 @@
-# Quotes on Dev Starter
+I don't think I found this to be as difficult as project four, but I still found it somewhat difficult but easier to grasp onto some of the topics.
+ I used my classmates, wordpress and stack overflow to help me solve a lot of the problems that I had with the project.
 
-A WordPress starter theme for the Quotes on Dev project, forked from Underscores.
+ What I found the most difficult was:
+ - still understanding php and how everything links
+ 
 
-## Installation
-
-### 1. Download me (don't clone me!)
-
-Then add me to your `wp-content/themes` directory.
-
-### 2. Rename the `quotesondev-starter-master` directory
-
-Make sure that the theme directory name is project appropriate! Do you need `starter` or `master` in the directory name?
-
-### 3. Install the dev dependencies
-
-Next you'll need to run `npm install` **inside your theme directory** to install the npm packages you'll need for Gulp, etc.
-
-### 4. Update the proxy in `gulpfile.js`
-
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `localhost[:port-here]/[your-dir-name-here]` to the appropriate localhost URL).
-
-And now would be a good time to `git init` :)
+ What I didn't find so difficult was:
+ - styling css came very easily to me
+ - part of the html and writing out the structure
