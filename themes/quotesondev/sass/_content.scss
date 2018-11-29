@@ -103,22 +103,28 @@
 	}
 }
 
-// @media screen and (min-width:640px) {
-// 	.quotes-content {
-// 		p {
-// 			font-size: 1.75rem;
-// 		}
-// 	}
+@media screen and (min-width:640px) {
+	.quotes-content {
+		p {
+			font-size: 1.75rem;
+		}
+	}
 
 
-// MOBILE
+MOBILE
+
+
+// @media screen and (max-width: 639px) {
 // 	.quotes-content {
 // 		p {
 // 			font-size: 1.25rem;
 // 		}
 // 	}
+// }
+	
 
 // FORM SUBMIT BUTTON
+
 .submit-quote {
 	background-color: #222;
 	border: 2px solid #0c0;
@@ -137,6 +143,7 @@
 		color: #090;
 	}
 }
+
 
 @media screen and (min-width: 1080px) {
 	.about-page {
@@ -180,3 +187,4 @@
 // @media screen and (min-width:640px) {}
 
 
+}
