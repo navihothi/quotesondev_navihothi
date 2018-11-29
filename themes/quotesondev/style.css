@@ -486,14 +486,12 @@ a {
   text-align: right;
   width: 50%; }
 
-.container {
-  margin: 0 auto;
-  max-width: 1080px;
-  padding: 2.5%;
-  width: 100%; }
-
-.site-content {
-  margin: 4.5rem 175px 1.5rem; }
+@media screen and (min-width: 1080px) {
+  .container {
+    margin: 0 auto;
+    max-width: 1080px;
+    padding: 2.5%;
+    width: 100%; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -581,6 +579,8 @@ a {
 @media screen and (min-width: 1080px) {
   .site-content {
     position: relative; }
+    .site-content .site-content {
+      margin: 4.5rem 175px 1.5rem; }
     .site-content:before {
       content: "\f10d";
       left: -175px;
@@ -635,8 +635,7 @@ a {
 @media screen and (min-width: 640px) {
   .quotes-content p {
     font-size: 1.75rem; }
-  MOBILE
-.submit-quote {
+  .quotes-button {
     background-color: #222;
     border: 2px solid #0c0;
     border-radius: 3px;
@@ -647,32 +646,44 @@ a {
     padding: .75rem 2.25rem;
     overflow: hidden;
     cursor: pointer;
-    margin-top: 1.50rem;
     font-family: exo-medium-normal; }
-    MOBILE
-.submit-quote:hover {
+    .quotes-button:hover {
       border-color: #090;
-      color: #090; } }
-
-@media screen and (min-width: 640px) and (min-width: 1080px) {
-  .about-page h2 {
-    font-family: exo-light-normal;
-    color: #FFF;
-    font-size: 2rem; }
-  .about-page p {
-    font-family: exo-light-normal;
-    color: #FFF;
-    font-size: 1rem;
-    line-height: 1.5; }
-    .about-page p a {
+      color: #090; }
+    .quotes-button .submit-quote {
+      background-color: #222;
+      border: 2px solid #0c0;
+      border-radius: 3px;
       color: #0c0;
-      text-decoration: none; }
-      .about-page p a:hover {
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1;
+      padding: .75rem 2.25rem;
+      overflow: hidden;
+      cursor: pointer;
+      margin-top: 1.50rem;
+      font-family: exo-medium-normal; }
+      .quotes-button .submit-quote:hover {
+        border-color: #090;
         color: #090; } }
-
-@media screen and (min-width: 640px) and (min-width: 1080px) {
-  .error-404 section h1 {
-    font-size: 2.5rem; } }
+  @media screen and (min-width: 640px) and (min-width: 1080px) {
+    .quotes-button .about-page h2 {
+      font-family: exo-light-normal;
+      color: #FFF;
+      font-size: 2rem; }
+    .quotes-button .about-page p {
+      font-family: exo-light-normal;
+      color: #FFF;
+      font-size: 1rem;
+      line-height: 1.5; }
+      .quotes-button .about-page p a {
+        color: #0c0;
+        text-decoration: none; }
+        .quotes-button .about-page p a:hover {
+          color: #090; } }
+  @media screen and (min-width: 640px) and (min-width: 1080px) {
+    .quotes-button .error-404 section h1 {
+      font-size: 2.5rem; } }
 
 /*--------------------------------------------------------------
 # Media

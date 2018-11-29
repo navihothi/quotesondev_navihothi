@@ -132,21 +132,20 @@ a {
 	}
 }
 
-.container {
-	margin: 0 auto;
-	max-width: 1080px;
-	padding: 2.5%;
-	width: 100%;
-}
 
-.site-content {
-	margin: 4.5rem 175px 1.5rem
-}
+
+
+
 // PAGE CONTENT CONTAINER FOR RWD
 //desktop
-// @media screen and (min-width:1080px) {
-	
-// }
+@media screen and (min-width:1080px) {
+	.container {
+		margin: 0 auto;
+		max-width: 1080px;
+		padding: 2.5%;
+		width: 100%;
+	}
+}
 
 // //tablet
 // @media screen and (min-width:620px) {
@@ -157,7 +156,7 @@ a {
 // 		width: 100%;
 		
 // 	}
-// }
+
 
 // // mobile
 // @media screen and (max-width: 619px) {
